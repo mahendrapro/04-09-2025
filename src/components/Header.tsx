@@ -52,10 +52,12 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              to="/contact"
+              to="https://calendly.com/mahendra-thebrainy/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-red-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-lg hover:shadow-red-500/25"
             >
-              Get Started
+              Book Consultation
             </Link>
           </div>
 
@@ -87,11 +89,13 @@ const Header = () => {
                 </Link>
               ))}
               <Link
-                to="/contact"
+                to="https://calendly.com/mahendra-thebrainy/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
                 className="mt-4 bg-red-500 text-white px-6 py-2 rounded-lg font-medium text-center hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all"
               >
-                Get Started
+                Book Consultation
               </Link>
             </nav>
           </div>

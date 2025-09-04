@@ -310,10 +310,12 @@ const Blog = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/contact"
+              to="https://calendly.com/mahendra-thebrainy/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-xl"
             >
-              Schedule a Consultation
+              Book a Free Consultation
             </Link>
             <Link
               to="/services"
