@@ -209,12 +209,24 @@ const Blog = () => {
             {/* Author Info */}
             <div className="border-t border-gray-200 pt-8 mt-12">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center">
+                <a 
+                  href="https://www.linkedin.com/in/e-mahendra-35143310a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center hover:shadow-lg hover:shadow-red-500/25 transition-all"
+                >
                   <User className="h-6 w-6 text-white" />
-                </div>
+                </a>
                 <div>
-                  <p className="font-semibold text-black">The Brainy Agency Team</p>
-                  <p className="text-gray-600">AI Automation Experts</p>
+                  <a 
+                    href="https://www.linkedin.com/in/e-mahendra-35143310a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-black hover:text-red-500 transition-colors"
+                  >
+                    Mahendra Epparala
+                  </a>
+                  <p className="text-gray-600">COO, The Brainy Agency</p>
                 </div>
               </div>
             </div>

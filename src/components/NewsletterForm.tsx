@@ -65,7 +65,7 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ className = "" }) => {
           </button>
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="flex max-w-md mx-auto">
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row max-w-md mx-auto gap-2 sm:gap-0">
           <input
             type="email"
             value={email}
@@ -73,12 +73,12 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ className = "" }) => {
             placeholder="Enter your email"
             required
             disabled={status === 'loading'}
-            className="flex-1 px-4 py-2 bg-gray-800 border border-red-500/30 rounded-l-lg text-white placeholder-gray-400 focus:outline-none focus:border-red-500 disabled:opacity-50"
+            className="flex-1 px-4 py-2 bg-gray-800 border border-red-500/30 rounded-lg sm:rounded-l-lg sm:rounded-r-none text-white placeholder-gray-400 focus:outline-none focus:border-red-500 disabled:opacity-50"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="bg-red-500 text-white px-6 py-2 rounded-r-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all disabled:opacity-50 flex items-center"
+            className="bg-red-500 text-white px-6 py-2 rounded-lg sm:rounded-r-lg sm:rounded-l-none hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all disabled:opacity-50 flex items-center justify-center"
           >
             {status === 'loading' ? (
               <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>

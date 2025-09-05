@@ -35,11 +35,12 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-300 hover:text-red-400 transition-colors">Home</Link></li>
-              <li><Link to="/about" className="text-gray-300 hover:text-red-400 transition-colors">About</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-red-400 transition-colors">Services</Link></li>
-              <li><Link to="/blog" className="text-gray-300 hover:text-red-400 transition-colors">Blog</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-red-400 transition-colors">Contact</Link></li>
+              <li><Link to="/" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-red-400 transition-colors">Home</Link></li>
+              <li><Link to="/about" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-red-400 transition-colors">About</Link></li>
+              <li><Link to="/services" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-red-400 transition-colors">Services</Link></li>
+              <li><Link to="/careers" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-red-400 transition-colors">Careers</Link></li>
+              <li><Link to="/blog" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-red-400 transition-colors">Blog</Link></li>
+              <li><Link to="/contact" onClick={() => window.scrollTo(0, 0)} className="text-gray-300 hover:text-red-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
 
