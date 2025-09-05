@@ -156,7 +156,7 @@ const Careers = () => {
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
                 <a
-                  href="mailto:career@thebrainy.agency"
+                  href="mailto:careers@thebrainy.agency"
                   className="inline-flex items-center justify-center border-2 border-red-500 text-red-500 px-6 py-3 rounded-lg font-semibold hover:bg-red-500/10 transition-all duration-200"
                 >
                   Email Resume
@@ -211,7 +211,7 @@ const Careers = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:career@thebrainy.agency"
+                href="mailto:careers@thebrainy.agency"
                 className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-xl"
               >
                 Send Your Resume

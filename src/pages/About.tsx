@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, Award, Users, Globe, Target, Zap } from 'lucide-react';
+import { CheckCircle, Award, Users, Globe, Target, Zap, Mail, Linkedin } from 'lucide-react';
 
 const About = () => {
   const achievements = [
@@ -64,18 +64,54 @@ const About = () => {
                 <div className="flex items-center mb-6">
                   <Award className="h-12 w-12 text-red-500 mr-4" />
                   <div>
-                    <h3 className="text-2xl font-bold text-black">Founded by Excellence</h3>
-                    <p className="text-red-500 font-semibold">Hemanth Garlapati</p>
+                    <h3 className="text-2xl font-bold text-black">Leadership Team</h3>
+                    <p className="text-red-500 font-semibold">Experienced & Passionate</p>
                   </div>
                 </div>
-                <ul className="space-y-3">
-                  {achievements.map((achievement, index) => (
-                    <li key={index} className="flex items-center text-gray-700">
-                      <CheckCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
-                      {achievement}
-                    </li>
-                  ))}
-                </ul>
+                
+                {/* Mahendra's Profile */}
+                <div className="bg-gray-50 rounded-xl p-6 mb-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-white font-bold text-xl">M</span>
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-black mb-1">Mahendra Epparala</h4>
+                      <p className="text-red-500 font-semibold mb-3">Chief Operating Officer</p>
+                      <div className="flex flex-col sm:flex-row gap-3 mb-4">
+                        <a 
+                          href="mailto:mahendra@thebrainy.agency"
+                          className="inline-flex items-center text-gray-600 hover:text-red-500 transition-colors"
+                        >
+                          <Mail className="h-4 w-4 mr-2" />
+                          mahendra@thebrainy.agency
+                        </a>
+                        <a 
+                          href="https://www.linkedin.com/in/e-mahendra-35143310a/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center text-gray-600 hover:text-red-500 transition-colors"
+                        >
+                          <Linkedin className="h-4 w-4 mr-2" />
+                          LinkedIn Profile
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Achievements */}
+                <div>
+                  <h4 className="text-lg font-semibold text-black mb-4">Key Achievements</h4>
+                  <ul className="space-y-3">
+                    {achievements.map((achievement, index) => (
+                      <li key={index} className="flex items-center text-gray-700">
+                        <CheckCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
+                        {achievement}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

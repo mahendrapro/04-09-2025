@@ -39,6 +39,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
+                onClick={() => window.scrollTo(0, 0)}
                 className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(item.href)
                     ? 'text-red-400 bg-red-500/20 shadow-lg shadow-red-500/25'
@@ -79,7 +80,6 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  onClick={() => window.scrollTo(0, 0)}
                   onClick={() => {
                     setIsMenuOpen(false);
                     window.scrollTo(0, 0);

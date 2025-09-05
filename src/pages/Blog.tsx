@@ -197,11 +197,11 @@ const Blog = () => {
                   If you're a fresher looking for training, internships, or placement, write to:
                 </p>
                 <a 
-                  href="mailto:career@thebrainy.agency"
+                  href="mailto:careers@thebrainy.agency"
                   className="inline-flex items-center text-red-500 font-semibold hover:text-red-600 transition-colors"
                 >
                   <Mail className="h-4 w-4 mr-2" />
-                  career@thebrainy.agency
+                  careers@thebrainy.agency
                 </a>
               </div>
             </article>
