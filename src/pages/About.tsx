@@ -78,6 +78,19 @@ const About = () => {
                     <div className="flex-1">
                       <h4 className="text-xl font-bold text-black mb-1">Hemanth Garlapati</h4>
                       <p className="text-red-500 font-semibold mb-3">Founder</p>
+                      
+                      {/* Founder Achievements */}
+                      <div className="mb-4">
+                        <h5 className="text-sm font-semibold text-black mb-2">Key Achievements</h5>
+                        <ul className="space-y-2">
+                          {achievements.map((achievement, index) => (
+                            <li key={index} className="flex items-center text-gray-600 text-sm">
+                              <CheckCircle className="h-3 w-3 text-red-500 mr-2 flex-shrink-0" />
+                              {achievement}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -111,19 +124,6 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-
-                {/* Achievements */}
-                <div>
-                  <h4 className="text-lg font-semibold text-black mb-4">Key Achievements</h4>
-                  <ul className="space-y-3">
-                    {achievements.map((achievement, index) => (
-                      <li key={index} className="flex items-center text-gray-700">
-                        <CheckCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
-                        {achievement}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>
