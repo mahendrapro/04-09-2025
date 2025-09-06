@@ -143,23 +143,14 @@ const Careers = () => {
             <div className="bg-red-50 border-2 border-red-500/20 rounded-xl p-6 mt-8">
               <h3 className="text-xl font-bold text-black mb-4">Ready to Apply?</h3>
               <p className="text-gray-700 mb-4">
-                Join us in building the future of AI automation. Apply through LinkedIn or send your resume directly.
+                Join us in building the future of AI automation. Send your resume directly to our careers team.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  to="https://www.linkedin.com/jobs/view/4293810629"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-red-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200"
-                >
-                  Apply on LinkedIn
-                  <ExternalLink className="ml-2 h-4 w-4" />
-                </Link>
+              <div className="flex justify-center">
                 <a
                   href="mailto:careers@thebrainy.agency"
-                  className="inline-flex items-center justify-center border-2 border-red-500 text-red-500 px-6 py-3 rounded-lg font-semibold hover:bg-red-500/10 transition-all duration-200"
+                  className="inline-flex items-center justify-center bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-xl"
                 >
-                  Email Resume
+                  Send Your Resume
                   <Mail className="ml-2 h-4 w-4" />
                 </a>
               </div>
@@ -214,15 +205,13 @@ const Careers = () => {
                 href="mailto:careers@thebrainy.agency"
                 className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-xl"
               >
-                Send Your Resume
-              </a>
-              <Link
-                to="/contact"
-                onClick={() => window.scrollTo(0, 0)}
-                className="border-2 border-red-500 text-red-500 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-red-500/10 transition-all duration-200"
+              <a
+                href="mailto:careers@thebrainy.agency"
+                className="inline-flex items-center bg-red-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-lg"
               >
-                Get in Touch
-              </Link>
+                Apply Now
+                <Mail className="ml-2 h-4 w-4" />
+              </a>
             </div>
           </div>
         </div>
