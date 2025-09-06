@@ -205,10 +205,6 @@ const Careers = () => {
                 href="mailto:careers@thebrainy.agency"
                 className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-xl"
               >
-              <a
-                href="mailto:careers@thebrainy.agency"
-                className="inline-flex items-center bg-red-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-lg"
-              >
                 Apply Now
                 <Mail className="ml-2 h-4 w-4" />
               </a>
