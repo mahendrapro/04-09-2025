@@ -69,7 +69,20 @@ const About = () => {
                   </div>
                 </div>
                 
-                {/* Mahendra's Profile */}
+                {/* Founder Profile */}
+                <div className="bg-gray-50 rounded-xl p-6 mb-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-white font-bold text-xl">H</span>
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-black mb-1">Hemanth Garlapati</h4>
+                      <p className="text-red-500 font-semibold mb-3">Founder</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* COO Profile */}
                 <div className="bg-gray-50 rounded-xl p-6 mb-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0">
