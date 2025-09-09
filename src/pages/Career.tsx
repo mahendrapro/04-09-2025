@@ -5,6 +5,14 @@ import { Users, Lightbulb, Rocket, Globe, CheckCircle, Mail, Calendar, Award, Ta
 const Career = () => {
   const openPositions = [
     {
+      title: "Generative AI Engineer",
+      type: "Full-time",
+      location: "Bangalore, India / Remote",
+      experience: "3-5 years",
+      skills: ["Python", "LangChain", "LangGraph", "OpenAI API", "GPT Models", "RAG Systems", "Vector Databases"],
+      description: "Design and implement advanced generative AI solutions, including RAG systems, AI agents, and custom LLM applications for enterprise clients."
+    },
+    {
       title: "AI/ML Engineer",
       type: "Full-time",
       location: "Bangalore, India / Remote",
