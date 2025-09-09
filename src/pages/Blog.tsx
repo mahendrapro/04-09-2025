@@ -213,7 +213,7 @@ const Blog = () => {
                   <User className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <p className="font-semibold text-black">The Brainy Agency Team</p>
+                  <p className="font-semibold text-black">Mahendra Garlapati</p>
                   <p className="text-gray-600">AI Automation Experts</p>
                 </div>
               </div>

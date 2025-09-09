@@ -65,7 +65,7 @@ const About = () => {
                   <Award className="h-12 w-12 text-red-500 mr-4" />
                   <div>
                     <h3 className="text-2xl font-bold text-black">Founded by Excellence</h3>
-                    <p className="text-red-500 font-semibold">Hemanth Garlapati</p>
+                    <p className="text-red-500 font-semibold">Mahendra Garlapati</p>
                   </div>
                 </div>
                 <ul className="space-y-3">
