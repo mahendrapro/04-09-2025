@@ -19,8 +19,9 @@ export interface ContactInquiry {
 export const EMAIL_SERVICES = {
   // Option 1: Formspree (Recommended - Easy setup)
   FORMSPREE: {
-    newsletter: 'https://formspree.io/f/xvgbqbqy',
-    contact: 'https://formspree.io/f/movnlnlk'
+newsletter: 'https://formspree.io/f/mqayelkw',
+contact: 'https://formspree.io/f/mldpglez'
+
   },
   
   // Option 2: EmailJS (Client-side only)
