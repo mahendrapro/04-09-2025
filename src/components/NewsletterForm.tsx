@@ -16,7 +16,7 @@ const NewsletterForm: React.FC<NewsletterFormProps> = ({ className = "" }) => {
 
     try {
       // Using a working form endpoint
-      const response = await fetch('https://formspree.io/f/xvgbqbqy', {
+      const response = await fetch('https://formspree.io/f/mqayelkw', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
