@@ -53,7 +53,7 @@ const Home = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
               <Link
-                to="https://calendly.com/mahendra-thebrainy/30min"
+                to="https://calendly.com/hemanth-thebrainy/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-red-500 hover:border hover:border-red-500 transition-all duration-200 shadow-2xl hover:shadow-red-500/25 flex items-center justify-center"
