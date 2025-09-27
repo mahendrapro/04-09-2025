@@ -17,7 +17,7 @@ const ContactForm = () => {
 
     try {
       // Using a working form endpoint
-      const response = await fetch('https://formspree.io/f/movnlnlk', {
+      const response = await fetch('https://formspree.io/f/mldpglez', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
